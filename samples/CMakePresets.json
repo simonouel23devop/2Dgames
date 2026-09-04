@@ -1,0 +1,25 @@
+ {
+  "version": 7,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 15,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "vs17",
+      "displayName": "Visual Studio 2022",
+      "description": "Visual Studio 2022 generator",
+      "binaryDir": "${sourceDir}/out/build/${presetName}"
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "vs18-debug",
+      "displayName": "Visual Studio 2022 Debug",
+      "description": "Build with Visual Studio 2022 Debug configuration",
+      "configurePreset": "vs17",
+      "configuration": "Debug"
+    }
+  ]
+}
