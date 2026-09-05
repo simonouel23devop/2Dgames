@@ -7,6 +7,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
 					"minimumCMakeVersion" : 
 					{
@@ -19,6 +23,21 @@
 						0,
 						1
 					]
+				},
+				{
+					"build" : "samples",
+					"jsonFile" : "directory-samples-Debug-3f0163133d720a5752c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -27,13 +46,15 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "rast",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -42,7 +63,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Debug-2a640ce46ed7f8f0d59a.json",
+					"jsonFile" : "target-ALL_BUILD-Debug-1799aa3f29095bf72479.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -51,6 +72,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-Debug-8e02a0a8dba602225ea3.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fps_raycaster::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-fps_raycaster-Debug-a6ffdea1c06df8802ca4.json",
+					"name" : "fps_raycaster",
 					"projectIndex" : 0
 				}
 			]
@@ -61,6 +89,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-Release-b5805d5c08fd3d92def4.json",
 					"minimumCMakeVersion" : 
 					{
@@ -73,6 +105,21 @@
 						0,
 						1
 					]
+				},
+				{
+					"build" : "samples",
+					"jsonFile" : "directory-samples-Release-3f0163133d720a5752c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Release",
@@ -81,13 +128,15 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "rast",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -96,7 +145,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-Release-2a640ce46ed7f8f0d59a.json",
+					"jsonFile" : "target-ALL_BUILD-Release-1799aa3f29095bf72479.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -105,6 +154,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-Release-8e02a0a8dba602225ea3.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fps_raycaster::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-fps_raycaster-Release-eb0e0af0965981898716.json",
+					"name" : "fps_raycaster",
 					"projectIndex" : 0
 				}
 			]
@@ -115,6 +171,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-MinSizeRel-b5805d5c08fd3d92def4.json",
 					"minimumCMakeVersion" : 
 					{
@@ -127,6 +187,21 @@
 						0,
 						1
 					]
+				},
+				{
+					"build" : "samples",
+					"jsonFile" : "directory-samples-MinSizeRel-3f0163133d720a5752c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "MinSizeRel",
@@ -135,13 +210,15 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "rast",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -150,7 +227,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2a640ce46ed7f8f0d59a.json",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1799aa3f29095bf72479.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -159,6 +236,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-8e02a0a8dba602225ea3.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fps_raycaster::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-fps_raycaster-MinSizeRel-060c331cfbdb90692bf4.json",
+					"name" : "fps_raycaster",
 					"projectIndex" : 0
 				}
 			]
@@ -169,6 +253,10 @@
 			[
 				{
 					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
 					"jsonFile" : "directory-.-RelWithDebInfo-b5805d5c08fd3d92def4.json",
 					"minimumCMakeVersion" : 
 					{
@@ -181,6 +269,21 @@
 						0,
 						1
 					]
+				},
+				{
+					"build" : "samples",
+					"jsonFile" : "directory-samples-RelWithDebInfo-3f0163133d720a5752c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "RelWithDebInfo",
@@ -189,13 +292,15 @@
 				{
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "rast",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -204,7 +309,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2a640ce46ed7f8f0d59a.json",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1799aa3f29095bf72479.json",
 					"name" : "ALL_BUILD",
 					"projectIndex" : 0
 				},
@@ -213,6 +318,13 @@
 					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-8e02a0a8dba602225ea3.json",
 					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fps_raycaster::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-fps_raycaster-RelWithDebInfo-988c3be2e2f8ad4dfa9d.json",
+					"name" : "fps_raycaster",
 					"projectIndex" : 0
 				}
 			]

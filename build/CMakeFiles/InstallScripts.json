@@ -1,7 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/simon/source/repos/Source/2Dgames/build/cmake_install.cmake"
+		"C:/Users/simon/source/repos/Source/2Dgames/build/cmake_install.cmake",
+		"C:/Users/simon/source/repos/Source/2Dgames/build/samples/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

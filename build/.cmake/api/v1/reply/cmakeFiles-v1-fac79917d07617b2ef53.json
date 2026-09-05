@@ -125,6 +125,9 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"path" : "samples/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
