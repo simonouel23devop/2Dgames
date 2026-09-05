@@ -25,7 +25,7 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "fps_raycaster::@fd003194bc69d7fb51e8"
+			"id" : "fps_3d_opengl::@fd003194bc69d7fb51e8"
 		}
 	],
 	"folder" : 
@@ -38,7 +38,7 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "fps_raycaster::@fd003194bc69d7fb51e8"
+			"id" : "fps_3d_opengl::@fd003194bc69d7fb51e8"
 		}
 	],
 	"paths" : 

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "samples/Release/fps_raycaster.exe"
+			"path" : "samples/MinSizeRel/fps_3d_opengl.exe"
 		},
 		{
-			"path" : "samples/Release/fps_raycaster.pdb"
+			"path" : "samples/MinSizeRel/fps_3d_opengl.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -31,13 +31,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 1,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 8,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -52,7 +52,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 5,
+				"line" : 17,
 				"parent" : 0
 			}
 		]
@@ -68,7 +68,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -std:c++17 -MD"
 				},
 				{
 					"backtrace" : 4,
@@ -102,13 +102,13 @@
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "fps_raycaster::@fd003194bc69d7fb51e8",
+	"id" : "fps_3d_opengl::@fd003194bc69d7fb51e8",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O1 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -130,6 +130,16 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 2,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
@@ -145,10 +155,18 @@
 		{
 			"backtrace" : 2,
 			"fragment" : "gdi32"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "opengl32"
+		},
+		{
+			"backtrace" : 2,
+			"fragment" : "glu32"
 		}
 	],
-	"name" : "fps_raycaster",
-	"nameOnDisk" : "fps_raycaster.exe",
+	"name" : "fps_3d_opengl",
+	"nameOnDisk" : "fps_3d_opengl.exe",
 	"paths" : 
 	{
 		"build" : "samples",
@@ -173,7 +191,7 @@
 				1
 			],
 			"compileGroupIndex" : 0,
-			"path" : "samples/fps_raycaster.cpp",
+			"path" : "samples/fps_3d_opengl.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

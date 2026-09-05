@@ -579,7 +579,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -1066,6 +1066,18 @@
 			"value" : "ON"
 		},
 		{
+			"name" : "RAST_BUILD_ASSIMP_MODEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build the Assimp model loading module"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
 			"name" : "RAST_BUILD_SAMPLES",
 			"properties" : 
 			[
@@ -1076,6 +1088,18 @@
 			],
 			"type" : "BOOL",
 			"value" : "ON"
+		},
+		{
+			"name" : "assimp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for assimp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "assimp_DIR-NOTFOUND"
 		},
 		{
 			"name" : "build_shared_libs",
